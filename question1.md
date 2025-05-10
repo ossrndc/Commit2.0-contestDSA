@@ -16,6 +16,8 @@ For each test case, output the number of notebooks that can be made using N kgs 
 ### Constraints
 
 1≤T≤100
+
+
 1≤N≤100
 
 
@@ -39,8 +41,6 @@ For each test case, output the number of notebooks that can be made using N kgs 
 
    500
 
-
-   
 
 ### Explanation:
 

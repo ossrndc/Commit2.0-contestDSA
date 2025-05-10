@@ -1,4 +1,4 @@
-```                                Max Triangle ```
+###                                Max Triangle 
 You have N sticks of length 1,2,...,N respectively.
 
 Can you make a non-degenerate triangle with some 3 sticks out of these N sticks? Find the maximum possible perimeter of a triangle you can make, or print −1 if not possible.
@@ -21,6 +21,8 @@ For each test case, output the maximum perimeter or −1 if not possible.
 ### constraints
 
 1≤T≤10^4
+
+
 3≤N≤10^8
 
 **Input** 

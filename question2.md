@@ -1,5 +1,5 @@
 ###                      Valentine Day 
-691
+
 
 Valentine's Day is approaching and thus Ayushman wants to buy some chocolates for someone special.
 Ayushman has a total of X rupees and one chocolate costs Y rupees. What is the maximum number of chocolates Ayushman can buy?
@@ -15,11 +15,13 @@ For each test case, output the maximum number of chocolates Ayushman can buy.
 ### Constraints
 
 1≤T≤100
+
+
 1≤X,Y≤100
 
 **Input** 
 
-   4
+    4
 
     5 10
 
