@@ -34,8 +34,13 @@ For each test case, output the number of notebooks that can be made using N kgs 
 **Output**  
 
    10
+
    1000
+
    500
+
+
+   
 
 ### Explanation:
 
