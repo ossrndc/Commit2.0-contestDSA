@@ -18,11 +18,16 @@ For each test case, output the number of notebooks that can be made using N kgs 
 1≤T≤100
 1≤N≤100
 
-### inputs                         outputs
+**inputs**                  
 3                                 
-1                                10
-100                             1000
-50                               500
+1                               
+100                             
+50         
+
+**outputs**
+10
+1000
+500
 
 ### Explanation:
 
