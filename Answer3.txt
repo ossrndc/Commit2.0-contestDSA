@@ -1,2 +1,17 @@
-// please paste your code for the Third answer 
+#include <stdio.h>
+int main() {
+    int T;
+    scanf("%d", &T);
+    while (T--) {
+        int N;
+        scanf("%d", &N);
+        int a = N, b = N - 1, c = N - 2;
+        if (c + b > a) {
+            printf("%d\n", a + b + c);
+        } else {
+            printf("-1\n");
+        }
+    }
+     return 0;
+}
 
