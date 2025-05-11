@@ -1,1 +1,11 @@
-// please paste your code for the Second answer 
+#include
+using namespace std;
+
+int main(){
+
+int X, Y; 
+cin >> X >> Y;
+
+int chocolates = X / Y;
+cout << chocolates << endl;
+}
