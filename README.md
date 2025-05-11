@@ -109,7 +109,7 @@ Documentation: Proper explanations and comments.
 Contest Launch: May 11, 2025
 Timing: 11:00 AM
 
-Submission Deadline: June 12, 2025
+Submission Deadline: May 12, 2025
 Timing :11:59 AM
 
 Winners Announcement: Winners will be announced soon on community group and Instagram.
