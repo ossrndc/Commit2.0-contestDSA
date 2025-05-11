@@ -4,8 +4,8 @@ int main() {
    scanf("%d", &T);
    for (int i = 0; i < T; i++) {
             scanf("%d", &N);
-         int notebooks = 10 * N;
-            printf("%d\n", notebooks);
+         int nb = 10 * N;
+            printf("%d\n", nb);
            }
     return 0;
 }

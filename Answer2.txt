@@ -1,12 +1,11 @@
 #include <stdio.h>
-int main() {
+int main(){
     int T;
-    scanf("%d", &T);
-    while (T--) {
-        int X, Y;
-        scanf("%d %d", &X, &Y);
-        printf("%d\n", X / Y);
-    }
-
-    return 0;
-}// please paste your code for the Second answer 
+    scanf("%d",&T);
+    int X,Y,n;
+    while(T--){
+    scanf("%d%d",&X,&Y);
+    n=X/Y;
+    printf("%d",n);
+}
+}
