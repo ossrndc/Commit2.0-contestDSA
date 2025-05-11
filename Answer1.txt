@@ -1,1 +1,15 @@
-// please paste your code for the first answer 
+import java.util.Scanner;
+
+public class NotebookCalculator {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int t = scanner.nextInt();
+        while (t-- > 0) {
+            // Read the weight of pulp in kg
+            int n = scanner.nextInt();
+            System.out.println(10 * n);
+        }
+
+        scanner.close();
+    }
+}
