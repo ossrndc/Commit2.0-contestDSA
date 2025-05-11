@@ -1,2 +1,37 @@
-// please paste your code for the Third answer 
+#include <iostream>
+using namespace std;
 
+int main() {
+    int T;
+    cin >> T;
+    
+    while (T--) {
+        long long N;
+        cin >> N;
+
+       
+        if (N < 3 || (N == 3)) {
+            cout << -1 << endl;
+        } else {
+           
+            long long a = N;
+            long long b = N - 1;
+            long long c = N - 2;
+
+            if (b + c > a) {
+                cout << a + b + c << endl;
+            } else {
+                cout <<" -1" << endl;
+            }
+        }
+    }
+
+    return 0;
+
+
+
+
+
+
+
+}
