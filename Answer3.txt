@@ -1,2 +1,25 @@
-// please paste your code for the Third answer 
+#include <stdio.h>
 
+int main() {
+    int T;
+    scanf("%d", &T);
+
+    while (T--) {
+        int N;
+        scanf("%d", &N);
+
+        // The three largest sticks are N, N-1, and N-2
+        int a = N, b = N - 1, c = N - 2;
+
+        // Check if they can form a non-degenerate triangle
+        if (c + b > a) {
+            // Valid triangle
+            printf("%d\n", a + b + c);
+        } else {
+            // Not a valid triangle
+            printf("-1\n");
+        }
+    }
+
+    return 0;
+}
