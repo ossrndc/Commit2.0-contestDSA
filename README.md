@@ -129,6 +129,10 @@ We welcome contributions from everyone. To get started:
 
 
 For more details, refer to our Contributing Guidelines.
+💬 Join the Community
+Need help or want to discuss your approach?
+Join our [Instagram handle]  →  https://www.instagram.com/team__oss/?hl=enJoin 
+Connect with us on linkedin-> https://www.linkedin.com/company/team-oss/
 
 
 ---
