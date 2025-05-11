@@ -1,1 +1,17 @@
-// please paste your code for the Second answer 
+#include <stdio.h>
+
+int main() {
+    int T;  
+    scanf("%d", &T);
+    for (int i = 0; i < T; i++) {
+        int X, Y;  
+        scanf("%d %d", &X, &Y);  
+        s
+        int max_chocolates = X / Y;
+
+       
+        printf("%d\n", max_chocolates);
+    }
+
+    return 0;
+}
