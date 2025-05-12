@@ -1,1 +1,7 @@
 // please paste your code for the Second answer 
+T = int(input())
+
+for _ in range(T):
+    X, Y = map(int, input().split())
+    chocolates = X // Y
+    print(chocolates)
