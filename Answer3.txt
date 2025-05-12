@@ -1,2 +1,23 @@
-// please paste your code for the Third answer 
-
+import java.util.*;
+class answer3
+{
+    public static void main(String args[])
+    {
+       Scanner sc = new Scanner(System.in);
+       int T;
+       System.out.println("Enter test cases");
+       T = sc.nextInt();
+       for(int r=0; r<T; r++){
+            int N;
+            System.out.println("Enter Number of sticks:");
+            N = sc.nextInt();
+            if(N>3){
+                int p=N+(N-1)+(N-2);
+                System.out.println("The perimeter of triangle:"+p);
+            }
+            else{
+                System.out.println("-1");
+            }
+       }
+    }
+}
