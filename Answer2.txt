@@ -1,1 +1,16 @@
-// please paste your code for the Second answer 
+import java.util.*;
+class answer2
+{
+    public static void main(String args[])
+    {
+       Scanner sc = new Scanner(System.in);
+       Double x;
+       System.out.println("Enter The amount Ayushmaan has");
+       x = sc.nextDouble();
+       Double y;
+       System.out.println("Enter The amount at which one chocolate costs");
+       y = sc.nextDouble();
+       int choco = (int) Math.floor(x/y) ;
+       System.out.println("The No. of chocolate ayushmaan can purchase:"+choco);
+    }
+}

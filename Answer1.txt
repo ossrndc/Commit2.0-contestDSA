@@ -1,0 +1,17 @@
+import java.util.*;
+class answer1
+{
+    public static void main(String args[])
+    {
+       Scanner sc = new Scanner(System.in);
+       Double weight;
+       System.out.println("Enter weight of the pulp in KG's");
+       weight = sc.nextDouble();
+       int pulpweight= (int) Math.floor(weight);
+       System.out.println("The No. of Notebooks Made:");
+       int notebook;//to store no. of notebooks created
+       int pages = pulpweight*1000;//to store the no. of pages created
+       notebook = pages/100;
+       System.out.println(notebook);
+    }
+}
