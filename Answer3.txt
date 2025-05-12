@@ -1,2 +1,11 @@
 // please paste your code for the Third answer 
 
+T = int(input())
+
+for _ in range(T):
+    N = int(input())
+    if N > 3:
+        print(3 * N - 3)
+    else:
+        print(-1)
+
