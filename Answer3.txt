@@ -1,2 +1,51 @@
-// please paste your code for the Third answer 
+// please paste your code for the Third answer  
+//** Refer to the Count_Notebooks folder/branch for the solution
+//<--The following code is in C++ language -->
+//Max_Triangle/solution.cpp
+//------------------------------------------------------------------------------------
+
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+int maxTrianglePerimeter(int N) {//Taking Input as number of sticks
+    
+    vector<int>sticks(N);//Vector containing  N number of input sticks having varying length
+    for(int i = 0  ; i <N; i++)
+    {
+        cin>>sticks[i];//Taking input length from the user for the test case
+    }
+    
+    sort(sticks.begin(), sticks.end(), greater<int>()); // Sort in descending order with sort fucntion using algorithm header file
+
+    for (int i = 0 ; i <= N - 3 ; i++) {
+        int a = sticks[i];
+        int b = sticks[i + 1];
+        int c = sticks[i + 2];
+
+        if (a < b + c) { // Triangle condition 
+            return a + b + c;//return statement for the max perimeter
+        }
+    }
+    return -1; // If No valid triangle
+}
+
+int main() {
+    int N,T;
+
+    cin>>T;//Taking Input Number for test cases 
+    vector<int>solution;//VEctor that contain the max perimeter of the traingle or return -1
+
+    while(T--){
+    cin >> N;//Getting input for the number of sticks 
+    int Max_Perim = maxTrianglePerimeter(N);//Getting the output here
+    solution.push_back(Max_Perim);//Vector storing output for each testcase 
+    }
+    for(auto it : solution){
+        cout << it<<endl;//genrative Output  for the code 
+    }
+    return 0;
+}
+
 

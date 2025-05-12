@@ -1,1 +1,33 @@
-// please paste your code for the first answer 
+// please paste your code for the first answer
+//** Refer to the Count_Notebooks folder/branch for the solution
+//<--The following code is in C++ language -->
+//-----------------------------------------------------------------------------------
+
+#include <iostream>
+#include <vector>
+using namespace std ;
+
+void printvec(vector <int> v ){
+    for(auto  it :v){
+        cout <<it<<endl;
+    }
+}
+vector<int> sol1(int T){
+    int weight_pulp;// the weight of the pulp the factory has (in kgs)
+    int count_notebooks;//Take the number of notebooks present in the weight_pulp (in kg)
+    vector<int> NOTEBOOK;//It is the returning Vector for the sol1 function
+    while(T--){
+        cin>>weight_pulp;//Take the value of weight of pulp in kgs
+        // For each 1 Kg of pulp there is 10 Notebook. So,
+        count_notebooks = 10*weight_pulp;//Refer description.txt how I get this formula 
+        NOTEBOOK.push_back(count_notebooks);
+    }
+    return  NOTEBOOK;
+}
+int main(){
+    int T;//  the number of testcases
+    cin>>T;//Enter the number of testcases
+    vector<int> notebook = sol1(T);//Storing the return vector from the function sol1
+    printvec(notebook);//Cout the number count of notebooks 
+    return 0  ;
+}

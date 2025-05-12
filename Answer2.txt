@@ -1,1 +1,47 @@
 // please paste your code for the Second answer 
+//** Refer to the Count_Notebooks folder/branch for the solution
+//<--The following code is in C++ language -->
+//Valentine's_Day/solution.cpp
+//--------------------------------------------------------------
+
+#include <iostream>
+#include<vector>
+using namespace std ;
+
+void printvec(vector<int>v){//for printing the 1-D output vector 
+    for (auto it:v){
+        cout <<it<<endl;
+    }
+}
+
+vector<int>num_chocolates(int T){
+
+    vector<int>CHOCO;//To store the output value for the different test cases 
+    while(T--){
+
+        int X,Y;//Declaring the Variables used here 
+        cin>>X>>Y;//X is the amount that Ayushman has & Y is the  cost of one chocolate 
+
+        int chocalate;//Value that has No. of chocalates that  Ayushman can buy
+        chocalate = X/Y;//Storing the value in (int)datatype to avoid the decimal value ...For more detailed explaination pls refer to the "description.txt" file present in Valentine's Day folder
+        CHOCO.push_back(chocalate);//Storing the number of chocalates in CHOCO vector
+
+    }
+    return CHOCO;
+}
+
+int main(){
+    int T;//Number of Test Cases
+
+    cin>> T;//Enter the Number of Input Test Cases 
+
+    vector<int> solution=num_chocolates(T);//Storing the return vector in the solution 
+
+    printvec(solution);
+    
+    return 0  ;
+    
+//Time Complexity: O(T)
+
+//Space Complexity: O(T)
+}
